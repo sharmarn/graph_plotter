@@ -18,9 +18,6 @@ plt.plotfile(option, ('time_limit','default','radius','in_range','random', 'lp_s
 # Set log-scales for y-axis to get a clear graph
 plt.yscale('log')
 
-# Set limits for the x-axis (optional)
-#plt.xlim(0, 35075)
-
 plt.xlabel('elimination time')
 
 if option == total_alive:
